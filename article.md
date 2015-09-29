@@ -17,14 +17,14 @@ Child poverty and turnout
 
 Starting again with child poverty but looking at a different graph this time - a scatter plot that shows the child poverty vs voter turnout for each constituency, with the winning party in 2015 shown by the colour of the data points. I've added the voter turnout because it correlates nicely with these poverty measures and because as I've said, [Labour will need to win over non-voters](https://randomlifedata.com/2015/09/corbyn-needs-swingers/) if they are to perform better in 2020. This is a javascript figure - hover over the data points for more info on which constituency is which, and you can zoom in by clicking and dragging to make a box over the area of interest.
 
-<iframe src=' figure/interactive_nvd3chunk-1.html ' scrolling='no' frameBorder='0' seamless class='rChart highcharts ' id=iframe- chartc9bf7fae6481 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+<iframe src=' figure/interactive_nvd3chunk-1.html ' scrolling='no' frameBorder='0' seamless class='rChart highcharts ' id=iframe- chartc9bf27559201 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
 It should hopefully be apparent that once again we can see greater success for Labour where there is greater child poverty. Conservative success is at the other end of the spectrum. The plot also indicates that voter turnout is inversely proportional to child poverty rates - perhaps indicating that disenfranchisement happens in worse-off societies. Interestingly, the third largest party this time, the SNP, has exceedingly high turnout but not the lowest levels of child poverty - they also don't have the highest levels of child poverty and so it seems like the nationalist groundswell was about something else. UKIP's one seat in Clacton has average turnout (64.3%) and fairly high child poverty (32.4%), perhaps indicating that the offer of an alternative was enough to re-engage supporters in that constituency.
 
 Correlating vote share with child poverty
 =========================================
 
-<iframe src=' figure/corr3chunk-1.html ' scrolling='no' frameBorder='0' seamless class='rChart highcharts ' id=iframe- chartc9bf5a93565c ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+<iframe src=' figure/corr3chunk-1.html ' scrolling='no' frameBorder='0' seamless class='rChart highcharts ' id=iframe- chartc9bfca5345e ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
 If we plot the share of votes for each party in each constituency against the child poverty in those constituencies, we can see that votes for Labour go up as child poverty goes up, and votes for Conservative go down as child poverty go up (the two parties cross over from 'top position' towards the right of the chart). UKIP seem to have a relatively consistent, low percentage regardless of child poverty and SNP have a high percentage (they won in almost every constituency they stood in) regardless of child poverty. 
 
@@ -33,7 +33,7 @@ Total income
 
 Moving onto other economic status indicators, we can look at income statistics. These ought to be correlated with child poverty but may provide more detail on where such social problems stem from. Here I'll first look at total income, then break it down into employed, self-employed and pensioners. 
 
-<iframe src=' figure/TotalIncome_chunk-1.html ' scrolling='no' frameBorder='0' seamless class='rChart highcharts ' id=iframe- chartc9bf23172771 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+<iframe src=' figure/TotalIncome_chunk-1.html ' scrolling='no' frameBorder='0' seamless class='rChart highcharts ' id=iframe- chartc9bf7da1690f ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
 Looking at median income we can see that the differences are less pronounced than they are with child poverty. The zoom function on those plots is pretty handy in this case. Conservative constituencies do have higher income in general and SNP constituencies have a spread of incomes again suggesting that something else was going on in Scotland. 
 
@@ -81,7 +81,7 @@ Total tax paid
 
 From the previous metrics, it might be tempting to say that Labour constituencies get a rough deal and that Conservative constituencies have a better standard of living from birth, through employment, into retirement. To investigate the other side of this, lets look at tax paid in each constituency. As it's quite an interesting metric, I'll return to the full plot to provide information on every constituency - mouse over the points to see which point is which constituency, click and drag to zoom in. 
 
-<iframe src=' figure/taxchunk-1.html ' scrolling='no' frameBorder='0' seamless class='rChart highcharts ' id=iframe- chartc9bf7201fbf8 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+<iframe src=' figure/taxchunk-1.html ' scrolling='no' frameBorder='0' seamless class='rChart highcharts ' id=iframe- chartc9bf4f6ce2ff ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
 As might be expected, this plot looks a lot like the one for total income: Conservatives to the right of the plot appear to pay more tax and they have higher voter turnout. One can't help wonder if the higher voter turnout is related to having a feeling of a greater stake in society - you earn more, you pay more tax, you want to have a say in government. Another way to look at it is that you feel like the system is working and so you are more inclined to take part in the system. Again, the SNP show a high turnout even though there is less obvious higher tax - their supporters may feel like the recent independence referendum showed they have a say in their society.
 
@@ -105,5 +105,5 @@ Another 'them' that could be looked at here is the UKIP vote. Although I showed 
 Supporting data and code
 ========================
 
-[Data can be found on FigShare](http://dx.doi.org/10.6084/m9.figshare.1559052)
-KnitR code can be found on GitHub
+* [Data can be found on FigShare](http://dx.doi.org/10.6084/m9.figshare.1559052)
+* [KnitR markdown file can be found on GitHub](https://github.com/randomlifedata/Blog-Who-would-vote-for-them)

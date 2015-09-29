@@ -436,5 +436,5 @@ Another 'them' that could be looked at here is the UKIP vote. Although I showed 
 Supporting data and code
 ========================
 
-*[Data can be found on FigShare](http://dx.doi.org/10.6084/m9.figshare.1559052)
-*KnitR code can be found on GitHub
+* [Data can be found on FigShare](http://dx.doi.org/10.6084/m9.figshare.1559052)
+* [KnitR markdown file can be found on GitHub](https://github.com/randomlifedata/Blog-Who-would-vote-for-them)
