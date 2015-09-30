@@ -1,4 +1,3 @@
-<script type='text/javascript'>
 (function($){
         $(function () {
             var chart = new Highcharts.Chart({
@@ -1729,7 +1728,7 @@
 {
  "x": 18,
 "y":           31.1,
-"const": "Ynys Mü¾Ž†Œ¼n (Anglesey)" 
+"const": "Ynys MÃ¼Â¾ÂŽÂ†ÂŒÂ¼n (Anglesey)" 
 },
 {
  "x": 18,
@@ -4986,7 +4985,7 @@
 {
  "x":           18.2,
 "y":           21.2,
-"const": "Ynys Mü¾Ž†Œ¼n (Anglesey)" 
+"const": "Ynys MÃ¼Â¾ÂŽÂ†ÂŒÂ¼n (Anglesey)" 
 },
 {
  "x":           18.2,
@@ -8243,7 +8242,7 @@
 {
  "x":           18.4,
 "y":           14.7,
-"const": "Ynys Mü¾Ž†Œ¼n (Anglesey)" 
+"const": "Ynys MÃ¼Â¾ÂŽÂ†ÂŒÂ¼n (Anglesey)" 
 },
 {
  "x":           18.4,
@@ -11500,7 +11499,7 @@
 {
  "x":           18.6,
 "y": null,
-"const": "Ynys Mü¾Ž†Œ¼n (Anglesey)" 
+"const": "Ynys MÃ¼Â¾ÂŽÂ†ÂŒÂ¼n (Anglesey)" 
 },
 {
  "x":           18.6,
@@ -13097,4 +13096,3 @@
 });
         });
     })(jQuery);
-</script>
