@@ -17,14 +17,14 @@ Child poverty and turnout
 
 Starting again with child poverty but looking at a different graph this time - a scatter plot that shows the child poverty vs voter turnout for each constituency, with the winning party in 2015 shown by the colour of the data points. I've added the voter turnout because it correlates nicely with these poverty measures and because as I've said, [Labour will need to win over non-voters](https://randomlifedata.com/2015/09/corbyn-needs-swingers/) if they are to perform better in 2020. This is a javascript figure - hover over the data points for more info on which constituency is which, and you can zoom in by clicking and dragging to make a box over the area of interest.
 
-<iframe src=' figure/interactive_nvd3chunk-1.html ' scrolling='no' frameBorder='0' seamless class='rChart highcharts ' id=iframe- chartc9bf27559201 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+<iframe src=' figure/interactive_nvd3chunk-1.html ' scrolling='no' frameBorder='0' seamless class='rChart highcharts ' id=iframe- chartc9bf4af40a3 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
 It should hopefully be apparent that once again we can see greater success for Labour where there is greater child poverty. Conservative success is at the other end of the spectrum. The plot also indicates that voter turnout is inversely proportional to child poverty rates - perhaps indicating that disenfranchisement happens in worse-off societies. Interestingly, the third largest party this time, the SNP, has exceedingly high turnout but not the lowest levels of child poverty - they also don't have the highest levels of child poverty and so it seems like the nationalist groundswell was about something else. UKIP's one seat in Clacton has average turnout (64.3%) and fairly high child poverty (32.4%), perhaps indicating that the offer of an alternative was enough to re-engage supporters in that constituency.
 
 Correlating vote share with child poverty
 =========================================
 
-<iframe src=' figure/corr3chunk-1.html ' scrolling='no' frameBorder='0' seamless class='rChart highcharts ' id=iframe- chartc9bfca5345e ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+<iframe src=' figure/corr3chunk-1.html ' scrolling='no' frameBorder='0' seamless class='rChart highcharts ' id=iframe- chartc9bf568086af ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
 If we plot the share of votes for each party in each constituency against the child poverty in those constituencies, we can see that votes for Labour go up as child poverty goes up, and votes for Conservative go down as child poverty go up (the two parties cross over from 'top position' towards the right of the chart). UKIP seem to have a relatively consistent, low percentage regardless of child poverty and SNP have a high percentage (they won in almost every constituency they stood in) regardless of child poverty. 
 
@@ -33,7 +33,7 @@ Total income
 
 Moving onto other economic status indicators, we can look at income statistics. These ought to be correlated with child poverty but may provide more detail on where such social problems stem from. Here I'll first look at total income, then break it down into employed, self-employed and pensioners. 
 
-<iframe src=' figure/TotalIncome_chunk-1.html ' scrolling='no' frameBorder='0' seamless class='rChart highcharts ' id=iframe- chartc9bf7da1690f ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+<iframe src=' figure/TotalIncome_chunk-1.html ' scrolling='no' frameBorder='0' seamless class='rChart highcharts ' id=iframe- chartc9bf1f2d484b ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
 Looking at median income we can see that the differences are less pronounced than they are with child poverty. The zoom function on those plots is pretty handy in this case. Conservative constituencies do have higher income in general and SNP constituencies have a spread of incomes again suggesting that something else was going on in Scotland. 
 
@@ -54,7 +54,7 @@ Looking at employed income only, we see still that Labour seats do have signific
 
 There has been a lot of rhetoric about [strivers and shirkers](http://www.theguardian.com/commentisfree/2012/oct/11/george-osborne-strivers-shock) but here we see that going by the most common type of work, Labour supporting constituencies have as many workers as Conservative constituencies - they just earn less. 
 
-One thing that these statistics don't describe is the breakdown between part-time and full-time work so it's possible that Labour constituencies have more part-time workers, resulting in lower wages. That said, the stats also only include tax-payers and it's not clear whether part-time workers earning below the tax threshold would be included or not. So with these two uncertainties, I'm inclined to suggest taking it as a fair comparison but more work would firm up what's going on.  
+One thing that these statistics don't describe is the breakdown between part-time and full-time work so it's possible that Labour constituencies have more part-time workers, resulting in lower wages. That said, [the stats also only include tax-payers](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/428961/Income_Tax_Liabilities_Statistics_May_2015.pdf) and so many part-time workers will be removed because they earn below the tax threshold. The comparison should be fairly fair given that it's workers above the tax threshold - Labour constituencies have the same number of employed tax payers but they earn less. 
 
 Self-employed
 =============
@@ -63,7 +63,7 @@ Self-employed
 
 In the self-employed plots we can see that Conservative constituencies do have more self-employed people but although those self-employed people earn 'significantly more' (going by the t-test), the actual amount more (the effect size) is very small. 
 
-What can be seen is that the earnings for self-employment are much smaller than for employment. That may be because many self-employed work part-time (again, we can't tell if they're included or not) or because self-employment is a thankless task. If low-earning part-time self employment was excluded due to not reaching the tax-threshold, then the higher numbers of self-employed might simply indicate a higher number of self-employed that earn enough to be taxed and then to be counted. The ONS doesn't state this information on their webpage!
+What can be seen is that the earnings for self-employment are much smaller than for employment. That may be because many self-employed work part-time or because self-employment is a thankless task. As the lowest-earning part-time self employment is excluded due to not reaching the tax-threshold, the higher numbers of self-employed might simply indicate a higher number of self-employed that earn enough to be taxed and then to be counted. It would be necessary to complete the picture with numbers of students, economically 'inactive' and unemployed in each constituency to see how true it is that Conservative constituencies have way more self-employed. See my comments in the Pensions section for why this might be the case.
 
 Self-employment makes for interesting statistics because under the Conservatives the rise in employment has ["been predominantly amongst the self employed"](http://www.ons.gov.uk/ons/rel/lmac/self-employed-workers-in-the-uk/2014/rep-self-employed-workers-in-the-uk-2014.html) and there are now more self-employed people than ever before.
 
@@ -74,14 +74,14 @@ Pensioners
 
 Pensioners show similar patterns to the other two earners mentioned here - earning more in Conservative constituencies than in Labour ones. There are also more pensioners in Conservative constituencies - something that fits with the stereotype of Conservative voters. 
 
-These three types of earner (employed,self-employed and pensioner) overlap and so their sum is always higher than the total number of earners that was first plotted. Breaking the total down into these three groups does help to highlight where the extra income comes from (employment and pensions). One thing that may play a part here is if some of the self-employed are also claiming a pension - the higher value pension would better augment the low self-employment earnings. Perhaps some of the extra motivation for self-employment comes from having had better earnings during employment and better pension as a result - or perhaps earning more throughout life (or having a partner that earns a decent wage) provides the capital needed for starting a business.
+These three types of earner (employed,self-employed and pensioner) overlap and so their sum is always higher than the total number of earners that was first plotted. Breaking the total down into these three groups does help to highlight where the extra income comes from (employment and pensions). One thing that may play a part here is if some of the self-employed are also claiming a pension - the higher value pension would better augment the low self-employment earnings. Or perhaps earning more throughout life (or having a partner that earns a decent wage) provides the capital needed for starting a business. In either case, it may be that the motivation for self-employment doens't come from some extra 'work ethic' but rather from being more empowered through having more savings or supplemental income.
 
 Total tax paid
 ==============
 
 From the previous metrics, it might be tempting to say that Labour constituencies get a rough deal and that Conservative constituencies have a better standard of living from birth, through employment, into retirement. To investigate the other side of this, lets look at tax paid in each constituency. As it's quite an interesting metric, I'll return to the full plot to provide information on every constituency - mouse over the points to see which point is which constituency, click and drag to zoom in. 
 
-<iframe src=' figure/taxchunk-1.html ' scrolling='no' frameBorder='0' seamless class='rChart highcharts ' id=iframe- chartc9bf4f6ce2ff ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+<iframe src=' figure/taxchunk-1.html ' scrolling='no' frameBorder='0' seamless class='rChart highcharts ' id=iframe- chartc9bf5785ebd1 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
 As might be expected, this plot looks a lot like the one for total income: Conservatives to the right of the plot appear to pay more tax and they have higher voter turnout. One can't help wonder if the higher voter turnout is related to having a feeling of a greater stake in society - you earn more, you pay more tax, you want to have a say in government. Another way to look at it is that you feel like the system is working and so you are more inclined to take part in the system. Again, the SNP show a high turnout even though there is less obvious higher tax - their supporters may feel like the recent independence referendum showed they have a say in their society.
 
@@ -94,13 +94,13 @@ Conclusion
 
 How to sum up all these graphs? It's apparent that voter turnout is related to economic status - with higher earners in successful communities turning out in higher numbers to vote for the system. It's apparent that those communities that are doing best are voting Conservative. And it's also apparent that those communities do contribute more to the public purse through direct taxation.
 
-Taxation should be about redistributing wealth from prosperous parts of the country to raise up the worst-off parts. What we can see is that there is a definite trend of lower wages and pensions, higher child poverty and higher disenfranchisement in a large swathe of the country that is crying out for more support by voting for a party that is traditionally linked to greater redistribution - Labour's tax credits.
+Taxation should be about redistributing wealth from prosperous parts of the country to raise up the worst-off parts. What we can see is that there is a definite trend of lower wages and pensions, higher child poverty and higher disenfranchisement in a large swathe of the country that is crying out for more support by voting for a party that is traditionally linked to greater redistribution - Labour and their tax credits.
 
-When we have such clear disparity from one constituency to the next it is troubling to see that the best off are supporting a party that stands on a platform of tax cuts and reduced welfare - those that are doing most well are against redistribution of wealth to those that need it most.
+When we have such clear disparity from one constituency to the next (child poverty 47.3% or 5%) it is troubling to see that the best off are supporting a party that stands on a platform of tax cuts and reduced welfare - those that are doing best are against redistribution of wealth to those that need it most.
 
 The worrying thing to me is how these problems seem to extend from cradle to grave - although these statistics don't prove anything about social mobility, it seems likely that a child born in poverty would earn less and retire on a smaller pension.  
 
-Another 'them' that could be looked at here is the UKIP vote. Although I showed that UKIP vote share is not greatly linked to child poverty (correlation is around 0), there is a slight but significant correlation with UKIP vote share and income that indicates lower income leads to UKIP votes. Such a trend may indicate that UKIP is picking up support from areas that might traditionally vote Labour, rather than them coming from the Conservative supporter base as might be expected by comparing ideologies.
+Another 'them' that could be looked at here is the UKIP vote. Although I showed that UKIP vote share is not greatly linked to child poverty (correlation is around 0), there is a slight but significant correlation with UKIP vote share and income that indicates lower income leads to UKIP votes (not shown here). Such a trend may indicate that UKIP is picking up support from areas that might traditionally vote Labour, rather than them coming from the Conservative supporter base as might be expected by comparing ideologies.
 
 Supporting data and code
 ========================
