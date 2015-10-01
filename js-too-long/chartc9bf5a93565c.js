@@ -21,7 +21,6 @@
          "symbol":'url('+blankchart_template_url.template_url+'/images/maximize-window-20.png)',
          "verticalAlign":"bottom",
          "y": -20,
-         "x": -20,
          "menuItems": [{
                         "text": 'Open in new window',
                         onclick: function () {
