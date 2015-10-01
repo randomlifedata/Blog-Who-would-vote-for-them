@@ -18,9 +18,10 @@
  "enabled": true,
  "buttons": {
      "contextButton": {
-         "symbol":'url(http://findicons.com/files/icons/1689/splashy/16/zoom_in.png)',
+         "symbol":'url('+blankchart_template_url.template_url+'/images/maximize-window-20.png)',
          "verticalAlign":"bottom",
          "y": -20,
+         "x": -20,
          "menuItems": [{
                         "text": 'Open in new window',
                         onclick: function () {
