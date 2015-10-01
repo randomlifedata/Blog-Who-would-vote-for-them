@@ -3,8 +3,6 @@
             var chart = new Highcharts.Chart({
                 "chart":{
                     "type":"scatter",
-                    "width":  window.innerWidth,
-                    "height": window.innerHeight-40,
                      "zoomType": "xy",
                      "renderTo": "chartc9bf5a93565c",
                     
